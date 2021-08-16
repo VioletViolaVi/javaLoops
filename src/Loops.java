@@ -23,13 +23,14 @@ public class Loops {
 
         System.out.println("\n");
 
-        // for loops
+        // for i loops
         for (int i = 0; i < 11; i++) {
             System.out.println(i);
         }
 
         System.out.println("\n");
 
+        // for each loop
         String[] heroes = {"raven", "beastboy", "robin", "cyborg", "starfire", "storm", "hercules", "arrow", "killer frost", "catwomen"};
         for (int i = 0; i < heroes.length; i++) {
             System.out.println(i+1 + ". " + heroes[i]);
