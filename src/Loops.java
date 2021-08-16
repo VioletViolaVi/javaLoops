@@ -40,8 +40,10 @@ public class Loops {
         System.out.println("\n");
 
         // for each loop
+        int num = 0;
         for (String hero : heroes) {
-            System.out.println(hero);
+            num++;
+            System.out.println(num + ". " + hero);
         }
 
     }
